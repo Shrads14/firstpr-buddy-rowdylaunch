@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1325">
+  <meta name="description" content="FirstPR Buddy helps complete beginners learn open source, practice the GitHub pull-request workflow, and check their understanding.">
+  <title>FirstPR Buddy | Your first open-source contribution</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="#top" aria-label="FirstPR Buddy home"><span class="brand-mark" aria-hidden="true">&lt;/&gt;</span><span>FirstPR <strong>Buddy</strong></span></a>
+      <nav aria-label="Main navigation" class="main-nav">
+        <a href="#learn">Learn</a>
+        <a href="#practice">Practice</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#real-pr">Real PR</a>
+      </nav>
+      <a class="nav-action" href="#real-pr">Try real GitHub <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> FREE · BEGINNER FRIENDLY · OPEN SOURCE</span>
+          <h1 id="hero-title">Understand GitHub. <span>Make your first contribution.</span></h1>
+          <p class="hero-lead">A friendly path from your first Git concept to a real pull request. Learn safely, practice with our simulator, then launch GitHub Skills for a hands-on challenge.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#practice">Try the practice lab <span aria-hidden="true">→</span></a>
+            <a class="button button-outline" href="#learn">First, explain it to me</a>
+          </div>
+          <p class="privacy-note"><span aria-hidden="true">✓</span> Practice works without an account. The real GitHub exercise requires GitHub sign-in.</p>
+        </div>
+        <div class="hero-visual" aria-label="Illustrated example of a pull request ready to merge">
+          <div class="floating-chip chip-one" aria-hidden="true">✨ beginner mode: ON</div>
+          <div class="code-window">
+            <div class="window-top"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>your-first-pr.md</span><span class="window-icon" aria-hidden="true">↗</span></div>
+            <div class="code-body"><div><span class="line-num">01</span><span class="syntax-blue">#</span> My first contribution</div><div><span class="line-num">02</span></div><div class="added-line"><span class="line-num">03</span><span class="syntax-green">+</span> Fixed a typo in the guide.</div><div class="added-line"><span class="line-num">04</span><span class="syntax-green">+</span> Helped the next learner!</div></div>
+            <div class="merge-card"><span class="merge-icon" aria-hidden="true">✓</span><span><strong>Pull request ready</strong><small>Small changes count, too.</small></span><span class="merge-branch" aria-hidden="true">⑂</span></div>
+          </div>
+          <div class="floating-chip chip-two" aria-hidden="true">🎉 You belong in open source</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="learn" aria-labelledby="learn-title">
+      <div class="container">
+        <div class="section-heading"><span class="kicker">01 / LEARN</span><h2 id="learn-title">Open source, without the jargon.</h2><p>You do not need to be an expert programmer to help. You can improve documentation, fix a typo, report a bug, or translate instructions.</p></div>
+        <div class="concept-grid">
+          <article class="concept-card"><span class="concept-icon" aria-hidden="true">📁</span><h3>Repository (repo)</h3><p>A project's shared folder. It holds the files, instructions, and change history.</p><div class="concept-analogy"><strong>Think:</strong> A shared class project folder.</div></article>
+          <article class="concept-card"><span class="concept-icon" aria-hidden="true">📝</span><h3>Issue</h3><p>A task or problem someone has written down so contributors know what needs help.</p><div class="concept-analogy"><strong>Think:</strong> A to-do item.</div></article>
+          <article class="concept-card"><span class="concept-icon" aria-hidden="true">🔀</span><h3>Pull request (PR)</h3><p>A request for the project owner to review your proposed changes before merging them.</p><div class="concept-analogy"><strong>Think:</strong> “Could you add my edits?”</div></article>
+        </div>
+        <div class="workflow" aria-label="Six main steps of a contribution"><div class="workflow-heading"><h3>The big picture</h3><p>Six actions. One real contribution.</p></div>
+          <ol class="workflow-list"><li><span>1</span><strong>Find</strong><small>Choose a project</small></li><li><span>2</span><strong>Fork</strong><small>Make your copy</small></li><li><span>3</span><strong>Change</strong><small>Edit something</small></li><li><span>4</span><strong>Commit</strong><small>Save the change</small></li><li><span>5</span><strong>Push</strong><small>Upload your work</small></li><li><span>6</span><strong>Request</strong><small>Ask for review</small></li></ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section practice-section" id="practice" aria-labelledby="practice-title">
+      <div class="container">
+        <div class="section-heading"><span class="kicker">02 / PRACTICE</span><h2 id="practice-title">Try a pull request. No risk.</h2><p>Practice the real sequence of actions with a <strong>simulated</strong> GitHub project. We show you what happens at each step—nothing is sent to GitHub.</p></div>
+        <div class="practice-layout">
+          <div class="practice-main">
+            <div class="lab-topline"><div><span class="lab-pill">INTERACTIVE LAB</span><h3 id="lab-title">Step 1: Fork the project</h3></div><span class="step-counter" id="step-count">1 of 8</span></div>
+            <div class="progress-track" role="progressbar" aria-label="Practice lab progress" aria-valuemin="0" aria-valuemax="8" aria-valuenow="0" id="progress-bar"><span id="progress-fill"></span></div>
+            <p class="lab-description" id="lab-description">Create your own copy of an open-source project.</p>
+            <div class="lab-note" id="lab-note">💡 This is only a simulation; it cannot create a real GitHub repository.</div>
+            <form id="lab-form" novalidate>
+              <div id="lab-control"></div>
+              <p class="form-error" id="lab-error" role="alert" hidden></p>
+              <div class="lab-buttons"><button class="button button-primary" type="submit" id="lab-submit">Create practice fork <span aria-hidden="true">→</span></button><button class="button button-quiet" type="button" id="lab-hint" hidden>Fill example</button></div>
+            </form>
+            <div class="lab-done" id="lab-done" hidden><span class="done-icon" aria-hidden="true">🎉</span><h3>You opened your first practice PR!</h3><p>You have walked through the process. Next, use the resources below to find a real beginner-friendly project.</p><button id="restart-btn" class="button button-outline" type="button">Practice again</button></div>
+          </div>
+          <aside class="terminal-card" aria-label="Simulated terminal output"><div class="terminal-top"><span class="terminal-lights" aria-hidden="true">● ● ●</span><span>practice-terminal · simulated</span></div><div class="terminal-content" id="terminal-output" role="log" aria-live="polite" aria-relevant="additions text"><div class="terminal-line terminal-muted">Welcome! Your practice starts here.</div><div class="terminal-line terminal-muted">No real commands are executed.</div><div class="terminal-line terminal-prompt">buddy@learning:~$ <span class="cursor" aria-hidden="true">▌</span></div></div><div class="terminal-footer">SAFE SANDBOX <span aria-hidden="true">•</span> NO GITHUB LOGIN</div></aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quiz-section" id="quiz" aria-labelledby="quiz-title"><div class="container"><div class="quiz-layout"><div class="section-heading quiz-heading"><span class="kicker">03 / CHECK YOUR KNOWLEDGE</span><h2 id="quiz-title">Are you PR-ready?</h2><p>Five quick questions to make sure the basics stick. Try again as many times as you like.</p><div class="quiz-deco" aria-hidden="true">💭</div></div><div class="quiz-card"><div class="quiz-meta"><span id="quiz-counter">QUESTION 1 / 5</span><span id="quiz-score">0 correct</span></div><div class="quiz-progress" aria-hidden="true"><span id="quiz-progress-fill"></span></div><form id="quiz-form"><fieldset id="quiz-fieldset"><legend id="quiz-question">What is a pull request?</legend><div class="quiz-answers" id="quiz-answers"></div></fieldset><p id="quiz-feedback" class="quiz-feedback" aria-live="polite" hidden></p><button id="quiz-action" type="submit" class="button button-primary">Check answer <span aria-hidden="true">→</span></button></form><div id="quiz-results" hidden><span class="result-icon" aria-hidden="true">🏅</span><h3 id="result-title">Well done!</h3><p id="result-description"></p><button class="button button-outline" id="retry-quiz" type="button">Retake quiz</button></div></div></div></div></section>
+
+
+    <section class="section real-section" id="real-pr" aria-labelledby="real-title">
+      <div class="container">
+        <div class="section-heading"><span class="kicker">04 / REAL OPEN-SOURCE CHALLENGE</span><h2 id="real-title">From practice mode to real GitHub.</h2><p>Our guided next-step pathway adapts the learning milestones from the <a href="https://github.com/skills/introduction-to-github" target="_blank" rel="noopener noreferrer">MIT-licensed GitHub Skills: Introduction to GitHub</a> course. The official course runs on GitHub; this page helps you prepare and keep track of the steps you report completing.</p></div>
+        <div class="real-layout">
+          <div class="real-card">
+            <div class="real-tag">REAL-WORLD LEARNING PATH · GITHUB ACCOUNT REQUIRED</div>
+            <h3>Launch the open-source GitHub Skills course</h3>
+            <p>You will create a real practice repository on GitHub. The course guides you through four actions—unlike our local simulation, these steps happen on the official GitHub platform.</p>
+            <a class="button button-primary" href="https://github.com/new?template_owner=skills&amp;template_name=introduction-to-github&amp;owner=%40me&amp;name=skills-introduction-to-github&amp;description=Exercise%3A%20Introduction%20to%20GitHub&amp;visibility=public" target="_blank" rel="noopener noreferrer">Open official course ↗</a>
+            <p class="real-small">Opens github.com in another tab. Internet and your own GitHub account are needed. This button does not submit or modify anything automatically.</p>
+            <div class="real-source"><strong>Source credit:</strong> Learning sequence adapted from <a href="https://github.com/skills/introduction-to-github" target="_blank" rel="noopener noreferrer">GitHub Skills — Introduction to GitHub</a> (MIT License, copyright GitHub, Inc.). Our original progress tracker and security checkpoint are separate features.</div>
+          </div>
+          <div class="real-card real-progress">
+            <div class="real-progress-header"><h3>My real PR milestones</h3><span id="mission-count">0 / 4</span></div>
+            <p>Mark each item after you complete it on GitHub. The checklist is <strong>self-reported</strong>, not verified by GitHub.</p>
+            <div id="mission-steps" class="mission-steps">
+              <label><input type="checkbox" data-mission="0"> <span><strong>Create a branch</strong><small>Work on a branch in the official course repository.</small></span></label>
+              <label><input type="checkbox" data-mission="1"> <span><strong>Commit a file</strong><small>Save a change and explain it in a commit message.</small></span></label>
+              <label><input type="checkbox" data-mission="2"> <span><strong>Open a pull request</strong><small>Propose your changes for review.</small></span></label>
+              <label><input type="checkbox" data-mission="3"> <span><strong>Merge your pull request</strong><small>Finish the course workflow.</small></span></label>
+            </div>
+            <div class="mission-progress" aria-hidden="true"><span id="mission-fill"></span></div>
+            <p class="mission-status" id="mission-status" aria-live="polite">Complete the official exercise and tick off your progress here.</p>
+            <button id="reset-mission" type="button" class="button button-quiet">Reset checklist</button>
+          </div>
+        </div>
+        <div class="security-card" aria-labelledby="security-title">
+          <div class="security-heading"><span class="security-emoji" aria-hidden="true">🔐</span><div><h3 id="security-title">Bonus: security check before your first commit</h3><p>A cybersecurity-inspired lesson created for FirstPR Buddy. Which change is safer to push to a public repository?</p></div></div>
+          <form id="security-form">
+            <fieldset class="security-options"><legend>Select the safer code example:</legend>
+              <label><input type="radio" name="security-option" value="unsafe"><span><strong>Option A</strong><code>API_KEY = "my-secret-key"</code><small>Hard-code a secret in the source file</small></span></label>
+              <label><input type="radio" name="security-option" value="safe"><span><strong>Option B</strong><code>API_KEY = os.getenv("API_KEY")</code><small>Read the secret from an environment variable instead</small></span></label>
+            </fieldset>
+            <div class="security-actions"><button class="button button-primary" type="submit">Check safety answer →</button><p id="security-feedback" aria-live="polite" class="security-feedback" hidden></p></div>
+          </form>
+          <p class="real-small">These are illustrative snippets, not live code execution. Never upload genuine passwords or API keys to a public repository.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section resources-section" id="resources" aria-labelledby="resources-title"><div class="container"><div class="section-heading"><span class="kicker">05 / KEEP GOING</span><h2 id="resources-title">Ready for the real thing?</h2><p>The practice lab is a starting point. These free projects and guides can help you make an actual contribution.</p></div><div class="resource-grid">
+      <a class="resource-card" target="_blank" rel="noopener noreferrer" href="https://github.com/firstcontributions/first-contributions"><span class="resource-icon" aria-hidden="true">🚀</span><span><strong>First Contributions</strong><small>A guided repository for your first real pull request.</small></span><span class="resource-arrow" aria-hidden="true">↗</span></a>
+      <a class="resource-card" target="_blank" rel="noopener noreferrer" href="https://github.com/skills/introduction-to-github"><span class="resource-icon" aria-hidden="true">🎓</span><span><strong>GitHub Skills</strong><small>MIT-licensed real branch, commit and pull request exercise.</small></span><span class="resource-arrow" aria-hidden="true">↗</span></a>
+      <a class="resource-card" target="_blank" rel="noopener noreferrer" href="https://opensource.guide/how-to-contribute/"><span class="resource-icon" aria-hidden="true">📖</span><span><strong>Open Source Guides</strong><small>How to choose a project and contribute respectfully.</small></span><span class="resource-arrow" aria-hidden="true">↗</span></a>
+      </div><div class="takeaway"><span aria-hidden="true">✨</span><div><strong>Your first contribution can be tiny.</strong><p>Fixing a typo, clarifying one sentence, or improving a setup guide can help hundreds of future readers.</p></div></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><span class="footer-brand">&lt;/&gt; FirstPR Buddy</span><span>Built for beginners · Open-source sources credited in README.</span><a href="#top">Back to top ↑</a></div></footer>
+</body>
+</html>
